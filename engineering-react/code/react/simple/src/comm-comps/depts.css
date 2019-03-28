@@ -1,0 +1,12 @@
+.depts{
+    padding: 20px 0;
+}
+.depts a{
+    display: inline-block;
+    margin: 0 20px;
+    color: #000;
+    text-decoration: none;
+}
+.depts a.active{
+    color: red;
+}

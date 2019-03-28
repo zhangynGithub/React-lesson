@@ -1,0 +1,61 @@
+form>div{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+form label{
+    width: 100px;
+    text-align: right;
+    flex-shrink: 0;
+    margin-right: 50px;
+}
+form .item-content{
+    display: flex;
+    /* flex-direction: column; */
+    width: 500px;
+    /* justify-content: center; */
+    align-items: center;
+}
+form .item-content>div{
+    display: flex;
+    align-items: center;
+}
+form input[type="text"],form input[type="submit"],form select{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #999;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"]{
+   -webkit-appearance: none;
+}
+form .file-uploader{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+form .file-uploader:after{
+    content: '上传';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 150px;
+    pointer-events: none;
+}
+form .file-uploader.uploaded:after{
+    opacity: 0;
+}
+form .file-uploader input{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,14 @@
+@import './base.scss';
+
+body{
+    background: url(../images/00.png) no-repeat center top;
+}
+h1{
+    color: $color1;
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}

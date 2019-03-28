@@ -1,0 +1,11 @@
+.title {
+  color: rgb(115, 167, 209);
+  :global(.span){
+    font-weight: normal;
+  }
+}
+
+.content {
+  composes: class-other from './other.css';
+  color: #f10000;
+}

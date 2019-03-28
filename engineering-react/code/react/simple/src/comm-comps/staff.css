@@ -1,0 +1,17 @@
+.staff{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.staff a,.staff span{
+    flex: 1;
+}
+.staff:nth-child(odd){
+    background-color: #f1f1f1;
+}
+.staff a{
+    flex: auto;
+    color: #19479e;
+    text-decoration: none;
+}

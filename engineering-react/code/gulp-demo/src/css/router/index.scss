@@ -1,0 +1,19 @@
+@import '../modules/base.scss';
+
+h1{
+    background-color: #000;
+    // transform: translate3d(30px,30px,0);
+}
+body{
+    background: url(../images/desk.jpg) repeat center top;
+    background-size: 100%;
+}
+li{
+    float: left;
+    color: #ffffff;
+    margin: 10px;
+    list-style: none;
+    img{
+        border-radius: 5px;
+    }
+}
